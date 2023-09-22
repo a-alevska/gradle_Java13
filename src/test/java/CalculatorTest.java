@@ -2,7 +2,7 @@ import org.example.Calculator;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class JUnitTests {
+public class CalculatorTest {
 
     private final Calculator calc = new Calculator();
 
@@ -10,7 +10,7 @@ public class JUnitTests {
     void additionActionTest(){
         //Given
         double a = 2.0;
-        double b = 5.0;;
+        double b = 5.0;
 
         //Then
         assertEquals(a+b,calc.add(a,b));
