@@ -10,13 +10,10 @@ public class JUnitTests {
     void additionActionTest(){
         //Given
         double a = 2.0;
-        double b = 5.0;
-
-        //When
-        double result = calc.add(a,b);
+        double b = 5.0;;
 
         //Then
-        assertEquals(7.0,result);
+        assertEquals(a+b,calc.add(a,b));
     }
 
     @Test
